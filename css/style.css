@@ -1,0 +1,50 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.main-container {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.main-container h2{
+    color: gray;
+    font-size: 14px;
+    margin-top: 1px ;
+}
+
+div h3:first-of-type {
+    font-weight: bold;
+    color: #616161;
+    font-size: 14px;
+    text-align: left;
+}
+
+.main-container p{
+    color: gray;
+    font-size: 14px;
+    text-align: left;
+}
+div h4:first-of-type{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+}
+#icons-container{
+    text-align: right;
+}
+#icons-container span {
+    color: white;
+    background-color:#00838F;
+    padding: 5px;
+    border-radius: 2px;
+}
+#divider {
+    border: 1px solid grey;
+    margin: 5px 0;
+}
+#avatar-image{
+    width: 60px;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
