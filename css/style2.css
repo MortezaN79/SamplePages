@@ -3,79 +3,84 @@ body {
 }
 
 .container {
-    width: 700px;
+    width: 44rem;
     margin: auto;
     text-align: left;
 }
 
 .container > h5 {
     color: grey;
-    margin-bottom: 5px;
+    margin-bottom: 0.3rem;
 }
 
 .container h1 {
     margin-top: 0;
 }
 
-.container p:first-of-type {
+.container > p:first-of-type {
     font-weight: bold;
-    font-size: 13px;
-    color: initial;
+    font-size: 0.8rem;
+    color: #1f1f1f;
 }
 
 .container p {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: gray;
 }
 
 #button span, #below span {
-    font-size: 12px;
+    font-size: 0.75rem;
 }
+
 
 #button > span, #below > span {
     color: #424242;
     border: 1px solid gray;
     background-color: #FAFAFA;
-    margin-right: 5px;
+    margin-right: 0.3rem;
+    padding: 0.2rem 0.5rem 0.2rem 0.1rem;
 }
 
 #icons-container2 span {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: white;
 }
 
 #icons-container2 > span {
-    padding: 2px;
-    width: 120px;
+    padding: 0.3rem 0.3rem;
+    width: 7rem;
     display: inline-block;
-    margin: 20px 6px 10px 6px;
+    margin: 1.25rem 0.3rem 0.625rem;
 }
 .author{
     background-color: #E0E0E0;
     float: left;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 .author img {
     float: left;
-    width: 100px;
+    width: 6.25rem;
     border-radius: 100%;
-    padding: 50px 50px;
+    padding: 3.125rem;
 }
 
 #footer {
-    padding: 30px;
+    padding: 1.875rem;
 }
 #footer > span {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 .left{
     float: left;
+}
+.image {
+    width: 40rem;
 }
 .right{
     float: right; text-align: right;
 }
 #footer span span {
-    font-size: 12px;
+    font-size: 0.8rem;
     font-weight: bold;
 }
 
@@ -99,3 +104,87 @@ body {
     background-color: black;
 }
 
+@media screen and (max-width: 400px) {
+    .container {
+        width: 20rem;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+
+    .container p {
+        font-size: 0.5rem;
+    }
+
+    .container > p:first-of-type {
+        font-size: 0.6rem;
+    }
+
+    #icons-container2 > span {
+        width: 3rem;
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+        padding: 0.1rem 0.1rem;
+    }
+
+    #icons-container2 span {
+        font-size: 0.5rem;
+    }
+
+    .image {
+        width: 20rem;
+    }
+
+    #button span, #below span {
+        font-size: 0.5rem;
+    }
+
+    .author img {
+        width: 3rem;
+        padding: 0.8rem 1rem 1rem;
+    }
+
+    .author h3 {
+        font-size: 0.6rem;
+        margin: 0.8rem 0.1rem 0.2rem;
+    }
+
+    .author p {
+        font-size: 0.4rem;
+        margin: 0.2rem 0.2rem 0.4rem;
+    }
+
+    .author h5 {
+        font-size: 0.45rem;
+        margin: 0.1rem;
+    }
+    .author{
+        margin-bottom: 0.8rem;
+    }
+    #footer {
+        padding: 0.7rem;
+        line-height: 0.5rem;
+    }
+
+    #footer > span {
+        margin-bottom: 0.5rem;
+    }
+
+    #footer span span {
+        font-size: 0.4rem;
+        font-weight: bold;
+    }
+
+    #footer span div {
+        font-size: 0.6rem;
+    }
+
+    #button span, #below span {
+        font-size: 0.4rem;
+    }
+
+    .container h5:first-of-type {
+        font-size: 0.6rem;
+    }
+}
